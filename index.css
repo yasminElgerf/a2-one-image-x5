@@ -72,3 +72,11 @@ img {
 .bends-and-breaks p {
     margin-top: 45px;
 }
+
+
+/* glitch-interruption: crops the image so only a small section is visible */
+.glitch-interruption {
+    background-color: #333;
+    border: 5px solid white;
+    position: relative;
+}
