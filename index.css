@@ -49,3 +49,14 @@ img {
     padding: 15px;
     margin-top: 20px;
 }
+
+
+/* bends-and-breaks: rotates and scales the image to make it feel broken */
+.bends-and-breaks {
+    width: 70%;
+    margin: 80px auto;
+    padding: 35px;
+    background-color: #2b2b2b;
+    transform: rotate(-3deg);
+    border: 2px solid white;
+}
