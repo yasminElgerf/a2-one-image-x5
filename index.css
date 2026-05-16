@@ -147,3 +147,11 @@ img {
     border-top: 5px solid white;
     border-bottom: 5px solid white;
 }
+.glitchspeak-language h2 {
+    font-size: 95px;
+    letter-spacing: 12px;
+    margin: 0;
+    color: white;
+    opacity: 0.8;
+    mix-blend-mode: difference;
+}
