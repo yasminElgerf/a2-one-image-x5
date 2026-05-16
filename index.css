@@ -43,3 +43,9 @@ img {
     margin: auto;
     filter: contrast(300%) grayscale(100%) blur(1px);
 }
+
+.noiseless-channel p {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin-top: 20px;
+}
