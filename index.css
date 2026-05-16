@@ -60,3 +60,11 @@ img {
     transform: rotate(-3deg);
     border: 2px solid white;
 }
+
+.bends-and-breaks img {
+    width: 350px;
+    display: block;
+    margin: auto;
+    transform: rotate(8deg) scale(1.15);
+    box-shadow: 25px 25px 0 white;
+}
