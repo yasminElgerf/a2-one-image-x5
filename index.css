@@ -136,3 +136,14 @@ img {
     padding: 70px 20px;
     min-height: 350px;
 }
+
+
+/* glitchspeak-language: blends image and typography into one visual language */
+.glitchspeak-language {
+    background-color: black;
+    background-image: url("images/flowers.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
