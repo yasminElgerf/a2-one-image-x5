@@ -193,3 +193,30 @@ img {
         letter-spacing: 5px;
     }
 }
+
+
+/* #page-footer: stylish ending section with my name */
+#page-footer {
+    text-align: center;
+    padding: 35px 20px;
+    margin-top: 60px;
+    background-color: #000;
+    border-top: 4px double white;
+    letter-spacing: 2px;
+}
+
+/* styles the main footer name */
+#page-footer p:first-child {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    text-shadow: 3px 3px 0 #555;
+}
+
+/* styles the smaller footer note */
+.footer-note {
+    font-size: 14px;
+    opacity: 0.75;
+    margin-top: 10px;
+}
