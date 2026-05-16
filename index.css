@@ -12,12 +12,31 @@ img {
     max-width: 50%;
 }
 
-/* #page-header: introduction section at the top of the page */
+/* #page-header: stylish opening section for the glitch gallery */
 #page-header {
     text-align: center;
-    padding: 40px;
-    background-color: #222;
-    border-bottom: 4px solid white;
+    padding: 45px 20px;
+    background-color: #000;
+    border-bottom: 4px double white;
+    letter-spacing: 2px;
+}
+
+/* styles the main header title */
+#page-header h1 {
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    text-shadow: 4px 4px 0 #555;
+}
+
+/* styles the smaller introduction text */
+#page-header p {
+    max-width: 750px;
+    margin: 18px auto 0;
+    font-size: 16px;
+    opacity: 0.85;
+    line-height: 1.6;
 }
 
 /* #noise-section: contains the noisy filtered image */
@@ -41,13 +60,17 @@ img {
     max-width: 650px;
     display: block;
     margin: auto;
-    filter: contrast(300%) grayscale(100%) blur(1px);
+    filter: contrast(350%) grayscale(100%) blur(1px) brightness(130%);
+    transform: translateX(-8px) skew(2deg);
 }
 
 .noiseless-channel p {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 15px;
     margin-top: 20px;
+    border-left: 5px solid white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 
