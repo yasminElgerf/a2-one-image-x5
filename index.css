@@ -11,3 +11,11 @@ body {
 img {
     max-width: 50%;
 }
+
+/* #page-header: introduction section at the top of the page */
+#page-header {
+    text-align: center;
+    padding: 40px;
+    background-color: #222;
+    border-bottom: 4px solid white;
+}
