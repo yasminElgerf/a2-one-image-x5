@@ -96,3 +96,12 @@ img {
     object-position: 75% 25%;
     filter: saturate(250%) contrast(130%);
 }
+
+.glitch-interruption p {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    max-width: 650px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
