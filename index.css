@@ -19,3 +19,27 @@ img {
     background-color: #222;
     border-bottom: 4px solid white;
 }
+
+/* #noise-section: contains the noisy filtered image */
+#noise-section {
+    width: 90%;
+    margin: 40px auto;
+    padding: 25px;
+    overflow: hidden;
+}
+
+/* noiseless-channel: transforms the image to show imperfection and noise */
+.noiseless-channel {
+    background-color: black;
+    border: 3px dashed white;
+    transform: skew(-2deg);
+}
+
+
+.noiseless-channel img {
+    width: 100%;
+    max-width: 650px;
+    display: block;
+    margin: auto;
+    filter: contrast(300%) grayscale(100%) blur(1px);
+}
