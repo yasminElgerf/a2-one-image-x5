@@ -155,10 +155,13 @@ img {
 }
 
 .repetition-noise p {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    width: 60%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin-top: 20px;
     border-left: 5px solid white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 60%;
 }
 
 
