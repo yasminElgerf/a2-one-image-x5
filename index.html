@@ -9,8 +9,11 @@
 </head>
 
 <body>
+    <!-- !Main page header with the title and introduction -->
     <header id="page-header">
         <h1>One Image, Five Glitches</h1>
+
+        <!-- !Introduction explaining the overall concept of the page -->
         <p>
             This page uses the same flower image five times. Each section tranforms the image in a different way using
             CSS, inspired by the ideas from the Glitch Studies Manifesto.
@@ -18,9 +21,12 @@
     </header>
 
     <!-- ! Transformation 1; filters the image into noisy and imperfect version -->
+    <!-- !This div uses an ID and a class so it can be styled in a specific way with CSS -->
     <div id="noise-section" class="noiseless-channel">
+        <!-- The same flower image is used as the first transformation -->
         <img src="images/flowers.jpeg" alt="Flowers">
 
+        <!-- Caption explaining the manifesto connection and CSS technique -->
         <p>
             <strong>Manifesto idea:</strong> The noiseless channel is a myth. Imperfection reveals the medium.
             <br>
@@ -32,9 +38,12 @@
     </div>
 
     <!-- ! transforamtion 2: bends and breaks the image using transform -->
+    <!-- This transformation uses CSS transform effects to make the image feel shifted and unstable -->
     <div class="bends-and-breaks">
+        <!-- The flower image is reused for the second transformation -->
         <img src="images/flowers.jpeg" alt="Flowers">
 
+        <!-- Caption connecting rotation and displacement to the idea of bends and breaks -->
         <p>
             <strong>Manifesto Idea:</strong> Bends and breaks can become a metaphor for difference.
             <br>
@@ -46,8 +55,12 @@
     </div>
 
     <!-- ! transformation 3: crops the image to create an interruption -->
+    <!-- This div creates a cropped image effect so only part of the image is shown -->
     <div id="interruption-section" class="glitch-interruption">
+        <!-- The flower image is reused for the third transformation -->
         <img src="images/flowers.jpeg" alt="Flowers">
+
+        <!-- Caption explaining how cropping creates a feeling of interruption -->
         <p>
             <strong>Manifesto idea:</strong> A glitch interrpts the ordinary form of an image.
             <br>
@@ -59,7 +72,9 @@
     </div>
 
     <!-- ! transformation 4: repeats the image like a noise pattern -->
+    <!-- This div uses the flower image as a repeated background instead of a normal image element -->
     <div class="repetition-noise">
+        <!-- Caption explaining how repetition turns the image into visual noise -->
         <p>
             <strong>Manifesto idea:</strong> Noise can become a generative pattern instead of a mistake.
             <br>
@@ -71,9 +86,12 @@
     </div>
 
     <!-- ! transformation 5: combines image and typography -->
+    <!-- This final transformation mixes text and image to create a glitch language effect -->
     <div id="glitchspeak-section" class="glitchspeak-language">
+        <!-- Large display text that blends visually with the background image -->
         <h2>FLOWERS</h2>
 
+        <!-- Caption explaining how the word and image work together -->
         <p>
             <strong>Manifesto idea:</strong> Glitch becomes a language of disintegration and new meaning.
             <br>
@@ -85,9 +103,10 @@
     </div>
 </body>
 
-<!-- footer with creator name -->
 <footer id="page-footer">
+   
     <p>Created by Yasmin Elgerf</p>
+
     <p class="footer-note">One Image x5 · Glitch Studies Manifesto</p>
 </footer>
 
