@@ -155,10 +155,13 @@ img {
 }
 
 .repetition-noise p {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    width: 60%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin-top: 20px;
     border-left: 5px solid white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 60%;
 }
 
 
@@ -190,25 +193,43 @@ img {
 }
 
 .glitchspeak-language p {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin-top: 20px;
+    border-left: 5px solid black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     display: inline-block;
-    padding: 20px;
     max-width: 700px;
 }
 
 /* bonus media query: adjusts layout for smaller screens */
 @media screen and (max-width: 700px) {
     #page-header {
-        padding: 25px;
+        padding: 30px 15px;
+    }
+
+    #page-header h1 {
+        font-size: 30px;
+    }
+
+    #page-header p {
+        font-size: 14px;
+    }
+
+    #noise-section {
+        width: 90%;
+        padding: 18px;
     }
 
     #interruption-section {
         width: 90%;
-        height: 330px;
+        height: 360px;
     }
 
     .bends-and-breaks {
         width: 85%;
+        padding: 25px;
         transform: rotate(0deg);
     }
 
@@ -217,13 +238,44 @@ img {
         transform: rotate(5deg) scale(1.05);
     }
 
+    .glitch-interruption p {
+        left: 12px;
+        bottom: 12px;
+        max-width: 85%;
+        font-size: 12px;
+    }
+
+    .repetition-noise {
+        width: 85%;
+        padding: 25px;
+        background-size: 90px;
+    }
+
     .repetition-noise p {
         width: auto;
+        font-size: 12px;
     }
 
     .glitchspeak-language h2 {
-        font-size: 45px;
+        font-size: 42px;
         letter-spacing: 5px;
+    }
+
+    .glitchspeak-language p {
+        font-size: 12px;
+        max-width: 85%;
+    }
+
+    #page-footer {
+        padding: 30px 15px;
+    }
+
+    #page-footer p:first-child {
+        font-size: 18px;
+    }
+
+    .footer-note {
+        font-size: 12px;
     }
 }
 
