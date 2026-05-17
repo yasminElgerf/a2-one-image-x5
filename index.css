@@ -206,16 +206,30 @@ img {
 /* bonus media query: adjusts layout for smaller screens */
 @media screen and (max-width: 700px) {
     #page-header {
-        padding: 25px;
+        padding: 30px 15px;
+    }
+
+    #page-header h1 {
+        font-size: 30px;
+    }
+
+    #page-header p {
+        font-size: 14px;
+    }
+
+    #noise-section {
+        width: 90%;
+        padding: 18px;
     }
 
     #interruption-section {
         width: 90%;
-        height: 330px;
+        height: 360px;
     }
 
     .bends-and-breaks {
         width: 85%;
+        padding: 25px;
         transform: rotate(0deg);
     }
 
@@ -224,13 +238,44 @@ img {
         transform: rotate(5deg) scale(1.05);
     }
 
+    .glitch-interruption p {
+        left: 12px;
+        bottom: 12px;
+        max-width: 85%;
+        font-size: 12px;
+    }
+
+    .repetition-noise {
+        width: 85%;
+        padding: 25px;
+        background-size: 90px;
+    }
+
     .repetition-noise p {
         width: auto;
+        font-size: 12px;
     }
 
     .glitchspeak-language h2 {
-        font-size: 45px;
+        font-size: 42px;
         letter-spacing: 5px;
+    }
+
+    .glitchspeak-language p {
+        font-size: 12px;
+        max-width: 85%;
+    }
+
+    #page-footer {
+        padding: 30px 15px;
+    }
+
+    #page-footer p:first-child {
+        font-size: 18px;
+    }
+
+    .footer-note {
+        font-size: 12px;
     }
 }
 
